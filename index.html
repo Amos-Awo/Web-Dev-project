@@ -5,34 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="menu.css">
-    <link rel="stylesheet" href="https://use.typekit.net/zul8ynd.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
     <title>Inc</title>
+    
 </head>
+
 <body>
     <header>
         <nav>
-            <img id="logo" src="./assets/logo.svg" alt="logo">
+            <div id="header-logo">
+                <img src="./assets/logo.svg" alt="logo">
+            </div>
+            <img id="ham" src="./assets/icon-hamburger.svg" alt="">
             <div id="hug">
                 <a href="#" id="hug1">What we do</a>
                 <a href="#" id="hug2">Our works</a>
                 <a href="#" id="hug3">Contact Us</a>
-            </div>
-            <div class="menu-wrap">
-                <input type="checkbox" class="toggler">
-                <div class="hamburger"><div></div></div>
-                <div class="menu">
-                    <div>
-                        <div>
-                            <ul>
-                                <li><a href="#">What we do</a></li>
-                                <li><a href="#">Our works</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
             </div>
         </nav>
         <h1>
@@ -45,80 +34,90 @@
         <img id="second-img" src="./assets/Frame.png" alt="">
     </header>
     <div id="page-2">
-        <section id="text-bodies">
+        <div id="text-bodies">
             <h1>Impacting users one pixel at a time</h1>
             <p>Bring your imaginations to life and make the most of your thoughts, but make history because the rest of this text is Lorem Ipsum faucibus semper tincidunt molestie mattis ullamcorper ultricies</p>
-            <section>
-                <section>
+            <div>
+                <div>
                     <img src="assets/pen.svg" alt="image could not load">
                     <article>
                         <h1>Redefinig your crude ideas</h1>
                         <p>Bring your imaginations to life and make the most of your thoughts, but make history because the rest of this text is Lorem Ipsum </p>
                     </article>
-                </section>
-                <section>
+                </div>
+                <div>
                     <img src="assets/rocket.svg" alt="image could not load">
                     <article>
                         <h1>Innovating user experiences</h1>
                         <p>Bring your imaginations to life and make the most of your thoughts, but make history because the rest of this text is Lorem Ipsum </p>
                     </article>
-                </section>
-                <section>
+                </div>
+                <div>
                     <img src="assets/machine-head.svg" alt="image could not load">
                     <article>
                         <h1>Rethinking existing products</h1>
                         <p>Bring your imaginations to life and make the most of your thoughts, but make history because the rest of this text is Lorem Ipsum </p>
                     </article>
-                </section>
-            </section>
-        </section>
+                </div>
+            </div>
+        </div>
     </div>
     <section class="middle-section">
-        <h3 class="emyhead">Explore Our works</h3>
-        <div class="our-works">
-            <img src="./assets/emy.png" id="bgimage" class="bg-image"></img>
-            <div class="text" id="text-1">
-                <h3 id="header-1"><span>Tox: </span>Automated intelligent data application</h3>
-                    <p class="emyparg">Bring your imaginations to life and make the most of your thoughts, but make history because the rest of this text is Lorem Ipsum</p>
-                    <button><a href="#">Learn more</a></button>
+        <h3 class="explore">Explore Our works</h3>
+        <div class="container">
+            <div class="bgimage bgimg">
             </div>
-            <div class="text" id="text-2">
-                <h3 id="header-2"><span>Azuma</span> App Reasearch</h3>
-                <p id="paragraph-3">Bring your imaginations to life and make the most of your thoughts, but make history because the rest of this text is Lorem Ipsum </p>
-                <button><a href="#">Learn more</a></button>
+            <div class="text">
+                <h3 class="innerhead"><span>Tox: </span> Automated intelligent data application</h3>
+                <p class="emyparg">Bring your imaginations to life and make the most of your thoughts, but make history because the rest of this text is Lorem Ipsum</p>
+                <button id="btn-pro"><a href="#">Learn more</a></button>
             </div>
-            <img src="./assets/Rectangle44.png" id="img-4" class="bg-image"></img>
-            <img src="./assets/Rectangle45.png" id="imageSide" class="bg-image"></mig>
-            <div class="text" id="text-3">
-                <h3 id="header-3">Rebranding the <span>Pulla</span> Web presence</h6>
-                <p>Bring your imaginations to life and make the most of your thoughts, but make history because the rest of this text is Lorem Ipsum </p>
-                <button class="learn-more"><a href="#">Learn More</a></button>
-            </div> 
         </div>
+        <div class="container cont">
+            <div class="img-4 bgimage">
+            </div>
+            <div class="text pulla-txt cnt">
+                <h3><span id="azuma"> Azuma </span> App Reasearch </h3>
+                <p id="paragraph-3">Bring your imaginations to life and make the most of your thoughts, but make history because the rest of this text is Lorem Ipsum </p>
+                <button id="button-4"><a href="#">Learn more</a></button>
+            </div>
+       </div>
+       <div class="container">
+           <div class="imageSide bgimage"></div>
+           <div class="text pulla-txt">
+               <h3>Rebranding the <span id="pulla">Pulla</span> Web presence</h3>
+               <p>Bring your imaginations to life and make the most of your thoughts, but make history because the rest of this text is Lorem Ipsum </p>   
+               <button><a href="#">Learn More</a></button>
+           </div> 
+       </div>
     </section>
-    <aside>
-        <p>We are reshaping the future</p>
-        <button><a href="#">Take a leap with us</a></button>
-    </aside>
-        <footer id="frame-32">
-            <div class="footer-logo">
-                <img src="./assets/inc.png" alt="logo" id="inc">
+    <div id="reshaping-card">
+        <p id="reshape">We are reshaping the future</p>
+        <button id="frame-3"><a href="#">Take a leap with us</a></button>
+    </div>
+
+    <footer id="footers">
+        <div id="frame-31">
+            <div id="img-containerr">
+                <img src="./assets/inc.png" alt="inc-logo" id="inc">
             </div>
-            <div class="footer-aside">
-                <div class="nav-links">
-                    <a href="#" id="who-we-are">Who we are</a>
-                    <a href="#" id="what-we-do">What we do</a>
-                    <a href="#" id="patners">Partners</a>
-                    <a href="#" id="blog">Blog</a>
-                    <a href="#" id="contact">Contact</a>
-                    <a href="#" id="legal">Legal</a>
+            <div id="footers-container">
+                <div>
+                    <a href="#" id="who-are-we">Who we are</a>
+                    <a href="#" id="our-blog">Blog</a>
                 </div>
-                <p id="seng102">Designed with ❤ by Loy for SENG102</p>
+                <div>
+                    <a href="#" id="what-wee-do">What we do</a> 
+                    <a href="#" id="contact-us">Contact</a>
+                </div>
+                <div>
+                    <a href="#" id="our-patners">Partners</a>
+                    <a href="#" id="legal-">Legal</a>
+                </div>
             </div>
-        </footer>
-            <button class="dark-mode-toggle">
-                <img src="../assets/darkmode-toggle.svg" alt="image could not load">
-            </button>
+        </div>
+        <p id="seng-102">Designed with &#10084; by Loy for SENG102</p>
+    </footer>
 </body>
 <script src="index.js"></script>
 </html>
